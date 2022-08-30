@@ -155,19 +155,27 @@
     <section class="s2">
         <div class="main-container">
             <h3 style="text-align: center;">Get In Touch</h3>
+            <!-- catch spam -->
+            <input type="text" name="_honey" style="display: none;">
 
-            <form id="contact-form" action="">
+            <!-- disable captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <form id="contact-form" action="https://formsubmit.co/adebiyijohn07@gmail.com" method="post">
                 <label for="name">Name</label>
-                <input class="input-field" type="text" name="name">
+                <input class="input-field" type="text" name="name" id="name">
 
                 <label for="subject">Subject</label>
-                <input class="input-field" type="text" name="subject">
+                <input class="input-field" type="text" name="subject" id="subject">
 
                 <label for="email">Email</label>
-                <input class="input-field" type="text" name="email">
+                <input class="input-field" type="text" name="email" id="email">
+
+                <label for="phone-number">Phone Number</label>
+                <input class="input-field" type="number" name="phone&nbsp;number" id="phone number">
 
                 <label for="message">Message</label>
-                <textarea class="input-field" type="text" name="message"></textarea>
+                <textarea class="input-field" type="text" name="message" id="message"></textarea>
 
                 <input id="submit-btn" type="submit" value="send">
             </form>

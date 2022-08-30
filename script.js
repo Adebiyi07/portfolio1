@@ -31,3 +31,17 @@ function setTheme(mode){
     }
     localStorage.setItem('theme', mode)
 }
+
+// function sendEmail (){
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "adebiyijohn07@gmail.com",
+//         Password : "password",
+//         To : "adebiyijohn07@gamil.com",
+//         From : document.getElementById("email").value,
+//         Subject : "This little info",
+//         Body : "Here is the body"
+//     }).then(
+//         message => alert(message)
+//     );
+// }
