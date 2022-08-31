@@ -35,9 +35,9 @@ function setTheme(mode){
 // function sendEmail (){
 //     Email.send({
 //         Host : "smtp.gmail.com",
-//         Username : "adebiyijohn07@gmail.com",
+//         Username : "",
 //         Password : "password",
-//         To : "adebiyijohn07@gamil.com",
+//         To : "",
 //         From : document.getElementById("email").value,
 //         Subject : "This little info",
 //         Body : "Here is the body"

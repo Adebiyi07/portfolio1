@@ -35,7 +35,7 @@
                     </div>
 
                     <ul id="navigation">
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="post.html">Contact</a></li>
                     </ul>
                 </div>
                    
@@ -121,7 +121,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">To-Do List App</h6>
                             <p class="post-intro">This is a Django based web app. It allows users keep track of their tasks.</p>
-                            <a href="post.html">Read more</a>
+                            <a href="https://github.com/Adebiyi07/django_todoApp.git">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -155,13 +155,15 @@
     <section class="s2">
         <div class="main-container">
             <h3 style="text-align: center;">Get In Touch</h3>
-            <!-- catch spam -->
-            <input type="text" name="_honey" style="display: none;">
+           
+            <form id="contact-form" action="https://formsubmit.co/616661569081acfedc993b877cffd1bb" method="post">
 
-            <!-- disable captcha -->
-            <input type="hidden" name="_captcha" value="false">
+                 <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
 
-            <form id="contact-form" action="https://formsubmit.co/adebiyijohn07@gmail.com" method="post">
+                <!-- disable captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
                 <label for="name">Name</label>
                 <input class="input-field" type="text" name="name" id="name">
 
