@@ -32,16 +32,3 @@ function setTheme(mode){
     localStorage.setItem('theme', mode)
 }
 
-// function sendEmail (){
-//     Email.send({
-//         Host : "smtp.gmail.com",
-//         Username : "",
-//         Password : "password",
-//         To : "",
-//         From : document.getElementById("email").value,
-//         Subject : "This little info",
-//         Body : "Here is the body"
-//     }).then(
-//         message => alert(message)
-//     );
-// }

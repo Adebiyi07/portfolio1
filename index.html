@@ -58,8 +58,9 @@
                         <div id="preview">
                             <div id="corner-tl" class="corner"></div>
                             <div id="corner-tr" class="corner"></div>
-                            <h3>What I Do</h3>
-                            <p>I am a fullstack web developer. I create amazing websites.</p>
+                            <h3><span class="auto-input"></span></h3>
+                            <p>Looking forward to working with you.</p>
+                            <!-- <p>I am a fullstack web developer. I create amazing websites.</p> -->
                             <div id="corner-br" class="corner"></div>
                             <div id="corner-bl" class="corner"></div>
                         </div>
@@ -184,5 +185,14 @@
         </div>
     </section>
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-input", {
+    strings: ["I'm Adebiyi John", "A Fullstack Developer", "I Love Coding"],
+    typeSpeed: 150,
+    backSpeed: 100,
+    loop: true
+})
+</script>
 </body>
 </html>
